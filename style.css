@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 245, 245);
+    color: #333;
+    line-height: 1.6;
+}
+/* Phần tiêu đề */
+.header{
+    background-color: #b84800;
+    color: #fad232;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+.header h1{
+    font-size: 2rem;
+}
+.header :hover{
+    background-color: #d4580a;
+}
+/* Phần giới thiệu */
+.about{
+    background-color: #b84800;
+    text-align: center;
+}
+.about h2{
+    color: #fad232;
+    font-size: 1.8rem;
+}
+.about p{
+    color: white;
+}
+.about:hover{
+    background-color: #d4580a;
+}
+/* Phần sách iu thik */
+.book-list{
+    background-color: #b84800;
+}
+.book-list img{
+    height: 272px;
+    width: 186px;
+}
+.book-list h2{
+    color: #fad232;
+    text-align: center;
+}
+.book-list ul{
+    text-align: center;
+    list-style: none;
+}
+
+.book-list ul li{
+    font-weight: 500;
+}
+    .book-list:hover{
+    background-color: #d4580a;
+}
+/* Phần sự kiện */
+.event {
+    background-color: #b84800;
+}
+.event h2{
+    text-align: center;
+    color: #fad232;
+}
+.event p{
+    color: white;
+    text-align: center;
+}
+.event:hover{
+    background-color: #d4580a;
+}
+button{
+    color: white;
+    text-align: center;
+    background-color: #da7739;
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fad232;
+}
